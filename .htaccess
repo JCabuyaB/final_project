@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+    # activar rewrite
+    RewriteEngine on
+
+    # gestionar error 404
+    ErrorDocument 404 http://localhost/sales-management/errors/error404
+
+    # condiciones de reescritura
+    RewriteCond %{SCRIPT_FILENAME} !-f
+    RewriteCond %{SCRIPT_FILENAME} !-d
+
+    RewriteRule ^(.*)/(.*) index.php?controller=$1&action=$2    
+</IfModule>

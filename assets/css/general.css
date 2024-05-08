@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: var(--white-color) var(--color-primary);
+}
+
+:root {
+    /* fuentes */
+    --font-salsa: "Salsa", cursive;
+    --font-swashed: "Sansita Swashed", system-ui;
+    --font-sansita: "Sansita", sans-serif;
+    --font-genos: "Genos", sans-serif;
+
+    /* colores */
+    --color-primary: #bf0603;
+    --color-primary-rgba: rgba(191, 6, 3, .6);
+    --color-secondary: #d1d646;
+    --color-secondary-rgba: rgba(209, 214, 70, 0.6);
+    --color-tertiary: #f18701;
+    --color-tertiary-rgba: rgba(241, 135, 1, 0.6);
+    --color-quaternary: #3c3c3c;
+    --color-facebook: #3b5998;
+    --white-color: #f5f5f5;
+    --white-glass-color: rgba(206, 206, 206, 0.1);
+    --white-glass-color2: rgba(206, 206, 206, 0.2);
+    --white-glass-border: rgba(255, 255, 255, 0.6);
+    --black--bg-color: rgba(0, 0, 0, 0.75);
+    --img-shadow: rgba(0, 0, 0, .3);
+}
+
+.body{
+    background: var(--white-color);
+}
+
+/* fuentes */
+@font-face {
+    font-family: "Sansita Swashed";
+    src: url(../font/Sansita_Swashed/SansitaSwashed-VariableFont_wght.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Sansita";
+    src: url(../font/Sansita/Sansita-Regular.ttf);
+}
+@font-face {
+    font-family: "Sansita";
+    src: url(../font/Sansita/Sansita-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Salsa";
+    src: url(../font/Salsa/Salsa-Regular.ttf);
+}
+
+@font-face{
+    font-family: "Genos";
+    src: url(../font/Genos/Genos-VariableFont_wght.ttf);
+}
